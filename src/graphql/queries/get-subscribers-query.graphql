@@ -1,0 +1,7 @@
+query GetSubscribers {
+  subscribers(orderBy: updatedAt_ASC, stage: DRAFT) {
+    name
+    whatsapp
+    message
+  }
+}
